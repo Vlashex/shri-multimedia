@@ -121,9 +121,9 @@ body {
 .progress__bar-value {
     display: block;
     height: 100%;
-    width: 100%;
+    width: 0; 
 
-    transform: scaleX(0);
+    /* transform: scaleX(0); */
     transform-origin: left;
 
     background: #ffba00;
@@ -258,4 +258,7 @@ body {
 
 .show-reactions-btn:hover {
     transform: scale(1.1);
+}
+.selected {
+    border: 1px solid red
 }
